@@ -1,6 +1,8 @@
 # 🎯 AI Career Coach & Interview Simulator
 
-A production-ready GenAI application that helps students and job seekers prepare for interviews through AI-powered resume analysis, mock interviews, performance evaluation, and personalized career guidance.
+AI Career Coach & Interview Simulator is a production-style, GenAI-powered web application built with Streamlit that helps students and job seekers prepare for technical interviews. The platform analyzes resumes, compares them against job descriptions for ATS compatibility, generates tailored interview questions, runs AI-driven mock interviews, scores responses across multiple dimensions, and produces a complete career coaching report.
+The application integrates LangChain with configurable LLM backends (OpenAI, Groq, and Amazon Bedrock), uses FAISS for vector-based similarity search, SQLite for persistence, and ReportLab/Plotly for reporting and visual analytics.
+
 
 ---
 
